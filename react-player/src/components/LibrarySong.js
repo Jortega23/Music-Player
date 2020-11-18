@@ -1,6 +1,13 @@
 import React from 'react'
 
-const LibrarySong = ({ song, songs, setCurrentSong, id, audioRef, isPlaying, setSongs}) => {
+const LibrarySong = ({ 
+  song, 
+  songs, 
+  setCurrentSong, 
+  id, 
+  audioRef, 
+  isPlaying, 
+  setSongs}) => {
 
   const songSelectHandler = () => {
     setCurrentSong(song);
